@@ -1,9 +1,6 @@
 body, html {
     justify-content: center;
     align-items: center;
-   /* background-image: url('images/backgroundGradient.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
     background: linear-gradient(to bottom right, #833ab4, #1287a5);
 }
 
