@@ -141,6 +141,8 @@ footer {
     color: #F7FFF7;
     text-align: center;
     padding: 15px 0;
+    position: sticky;
+    bottom: 0;
 }
 
 .footer-content {
