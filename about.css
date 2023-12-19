@@ -15,9 +15,6 @@ body {
 }
 
 /** MAIN **/
-/* Existing styles */
-
-/* Existing styles */
 
 main {
     flex:1;
@@ -40,10 +37,10 @@ h1 {
 }
 
 .profile-image {
-    max-width: 30%; /* Adjust based on your preference */
+    max-width: 30%;
     height: auto;
     float: left;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px;
 }
 
 .text-content {
@@ -51,8 +48,9 @@ h1 {
 }
 
 .text-content p {
+    max-width: 95%;
     text-align: justify;
-    font-size: 140%;
+    font-size: 20px;
 }
 
 
@@ -132,7 +130,6 @@ header {
 
 
 /** FOOTER **/
-/* Your existing styles */
 
 footer {
     background-color: #2B061E;

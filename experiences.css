@@ -1,22 +1,19 @@
 body, html {
     background-image: url('images/backgroundGradient.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%
+    background-repeat: repeat-y;
+    height: 100%;
+   /* background: linear-gradient(to bottom right, #833ab4, #1287a5); */
 
 }
 
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
 }
-
 
 
 /** HEADER && NAV BAR **/
@@ -94,31 +91,44 @@ header {
 /** MAIN **/
 
 main {
-    flex: 1;
-    padding: 20px;
+    /*flex: 1; */
 }
 
-
-.timeline {
+h1 {
+    padding-top:5%;
+    text-align: center !important;
+    margin-bottom: 20px;
+}
+.notable-experiences {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
-.event {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+.notable-experiences img.logo-img {
+
+    width: 200px;
+    height:auto;
+    /* padding-top: 10px; */
 }
 
-.event-content h2 {
-    font-size: 1.5em;
-    margin-bottom: 5px;
+.experience {
+    padding-top: 3%;
+    flex: 0 0 30%;
+    margin: 10px;
+    text-align: center;
 }
 
-.event-content p {
-    margin-bottom: 10px;
+.experience img {
+    width: 100%;
+    height: auto;
+}
+
+.notable-experiences p {
+    font-size: 1em;
+    max-width: 110%;
+    text-align: center;
 }
 
 
@@ -138,3 +148,4 @@ footer {
 .footer-content p {
     margin: 0;
 }
+
