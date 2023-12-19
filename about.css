@@ -1,0 +1,151 @@
+body, html {
+    background-image: url('images/backgroundGradient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/** MAIN **/
+/* Existing styles */
+
+/* Existing styles */
+
+main {
+    flex:1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    padding-top:5%;
+    text-align: center !important;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.profile-image {
+    max-width: 30%; /* Adjust based on your preference */
+    height: auto;
+    float: left;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content p {
+    text-align: justify;
+    font-size: 140%;
+}
+
+
+
+/** HEADER && NAV BAR **/
+
+header {
+    background-color: #2B061E;
+    color: #F7FFF7;
+    padding: 15px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: #2B061E;
+}
+
+.navbar li {
+    /* padding-left: 10%; */
+    display: inline;
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #F7FFF7;
+}
+
+.navbar li a:hover{
+    text-decoration: none;
+    color: #B88E8D;
+}
+
+.logo-img {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add margin for spacing */
+    width: 200px; /* Set width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-top: 10px;
+}
+
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2B061E;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #F7FFF7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #2B061E;
+    color: #B88E8D;
+
+}
+
+
+/** FOOTER **/
+/* Your existing styles */
+
+footer {
+    background-color: #2B061E;
+    color: #F7FFF7;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-content {
+    font-size: 1.5em;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
